@@ -1,0 +1,96 @@
+<!-- form-search.component.html -->
+
+<div class="d-block mt-5"></div>
+<div class="container">
+  <div class="wrapper">
+    <div class="row">
+      <div class="col-md-4 mb-2">
+        <label for="">Name</label>
+        <ng-container *ngIf="loadingService.loading$ | async">
+          <p-skeleton width="100%" height="1.5rem"></p-skeleton>
+        </ng-container>
+        <input
+          *ngIf="!(loadingService.loading$ | async)"
+          type="text"
+          class="form-control"
+          name=""
+          id=""
+        />
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <label for="">Name</label>
+        <ng-container *ngIf="loadingService.loading$ | async">
+          <p-skeleton
+            width="100%"
+            height="1.5rem"
+            styleClass="p-2"
+          ></p-skeleton>
+        </ng-container>
+        <input
+          *ngIf="!(loadingService.loading$ | async)"
+          type="text"
+          class="form-control"
+          name=""
+          id=""
+        />
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <label for="">Name</label>
+        <ng-container *ngIf="loadingService.loading$ | async">
+          <p-skeleton width="100%" height="1.5rem"></p-skeleton>
+        </ng-container>
+        <input
+          *ngIf="!(loadingService.loading$ | async)"
+          type="text"
+          class="form-control"
+          name=""
+          id=""
+        />
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <label for="">Name</label>
+        <ng-container *ngIf="loadingService.loading$ | async">
+          <p-skeleton width="100%" height="1.5rem"></p-skeleton>
+        </ng-container>
+        <input
+          *ngIf="!(loadingService.loading$ | async)"
+          type="text"
+          class="form-control"
+          name=""
+          id=""
+        />
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <label for="">Name</label>
+        <ng-container *ngIf="loadingService.loading$ | async">
+          <p-skeleton width="100%" height="1.5rem"></p-skeleton>
+        </ng-container>
+        <input
+          *ngIf="!(loadingService.loading$ | async)"
+          type="text"
+          class="form-control"
+          name=""
+          id=""
+        />
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <label for="">Name</label>
+        <ng-container *ngIf="loadingService.loading$ | async">
+          <p-skeleton width="100%" height="1.5rem"></p-skeleton>
+        </ng-container>
+        <input
+          *ngIf="!(loadingService.loading$ | async)"
+          type="text"
+          class="form-control"
+          name=""
+          id=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
